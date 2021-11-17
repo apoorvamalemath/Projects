@@ -1,0 +1,6 @@
+PARTIAL 3D OBJECT RETRIEVAL
+
+Abstract
+In this project, we address the problem of partial 3D object retrieval for point cloud data. Due to increasing availability of 3D point cloud data, there is a surge of interest with respect to retrieval problems. In order to address this issue we propose a partial 3D object retrieval technique. We perform sampling, feature extraction, feature encoding, matching and performance evaluation. We use Poisson disk sampling, then we extract improved wave kernel signature (IWKS) feature. These feature descriptors are then encoded using Fisher vector(FV) and Bag-of-Features (BoF). And they are matched using l1-norm, l2-norm, cosine distance and earth mover distance (EMD). We then demonstrate the perfor- mance of the proposed technique.
+
+Keywords: Partial 3D object retrieval, improved wave kernel signature, Fisher vector, bag-of-features, point cloud data
