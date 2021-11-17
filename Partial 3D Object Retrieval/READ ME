@@ -1,6 +1,31 @@
 PARTIAL 3D OBJECT RETRIEVAL
 
-Abstract
-In this project, we address the problem of partial 3D object retrieval for point cloud data. Due to increasing availability of 3D point cloud data, there is a surge of interest with respect to retrieval problems. In order to address this issue we propose a partial 3D object retrieval technique. We perform sampling, feature extraction, feature encoding, matching and performance evaluation. We use Poisson disk sampling, then we extract improved wave kernel signature (IWKS) feature. These feature descriptors are then encoded using Fisher vector(FV) and Bag-of-Features (BoF). And they are matched using l1-norm, l2-norm, cosine distance and earth mover distance (EMD). We then demonstrate the perfor- mance of the proposed technique.
+ABSTRACT:
+In this project, we address the problem of partial 3D object retrieval for point cloud data. Due to increasing availability of 3D point cloud data, there is a surge of interest with respect to retrieval problems. In order to address this issue we propose a partial 3D object retrieval technique. We perform sampling, feature extraction, feature encoding, matching and performance evaluation. We use Poisson disk sampling, then we extract improved wave kernel signature (IWKS) feature. These feature descriptors are then encoded using Fisher vector(FV) and Bag-of-Features (BoF). And they are matched using l1-norm, l2-norm, cosine distance and earth mover distance (EMD). We then demonstrate the performance of the proposed technique.
 
 Keywords: Partial 3D object retrieval, improved wave kernel signature, Fisher vector, bag-of-features, point cloud data
+
+The main goals are to compute geometric properties of surfaces and to produce new representations from which important features can be inferred.
+
+
+PROBLEM STATEMENT:
+To build a partial 3D object retrieval technique to solve the retrival of relevent objects given a partial query.
+
+
+OBJECTIVES:
+1. To extract features from the given 3D objects.
+2. To perform encoding of the extracted features.
+3. To perform matching of the input query with the dataset.
+4. To evaluate the performance of the proposed technique.
+
+
+
+The data set consists of 50 classes with 20 objects each and a partial query is given as an input.
+
+We employed data from the SHREC’11 shape benchmark constructed at NIST for all of our tests. It contains 1000 complete 3D models, which are categorized into 50 classes. In each class there are 18 models. And Query set consists of 150 partial 3D objects.
+
+RESULTS:
+1. l1 −norm distance we observe that the best results obtained are using K=1000 for BoF and K=50 for FV.
+2. l2−norm distance we observe that the best results obtained are using K=1000 for BoF and K=50 for FV.
+3. Cosine distance we observe that the best results obtained are using K=1000 for BoF and K=50 for FV. 
+
