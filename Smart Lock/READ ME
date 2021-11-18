@@ -1,7 +1,6 @@
 
 SMART LOCK 
 
-
 Security is a prime concern in our day-today life. Everyone wants to be as much secure as possible. An access control for doors forms a vital link in a security chain. In conventional home doors, the existing security system is a simple metal key and lock. Conventional locks pose three main problems. Firstly, they are prone to lock picking, which leaves the home vulnerable to break ins. Secondly, physical keys are bulky, inconvenient and often take up space, which might lead to keys being misplaced or even lost. Lastly, during a break in, owners of the home are often unaware that their homes are being broken into or who has broken into their homes. Thus, the microcontroller based Smart Lock is an access control system that allows only authorized persons to operate it.
 
 Here we are utilizing bluetooth technology to scan bluetooth devices near the lock for authentication to lock and unlock the door. The microcontroller will read the signal and verify the signal whether it is the right person or not to open the door. Also, there is an android application which can be used to control various appliances such as capture images and record live footage. There is a burglar alert system which notifies the owner through a text message and captures the image at the very same instant. The entire Smart Lock system and the mobile application are connected with the help of wifi and is dependent on IoT platform.
